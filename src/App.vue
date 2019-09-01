@@ -6,13 +6,13 @@
           <div class="title-container">
             <!-- <div><img id="logo" src="./assets/amp-logo.png"></div> -->
             <div contenteditable="true">
-                <h1 class="title-long">My AI Press&nbsp;</h1><h1 class="title-short"> AI Press&nbsp;</h1>
-                <h5>ai performance profit progress</h5>
+                <h1 class="title-long">help book&nbsp;</h1><h1 class="title-short"> AI Press&nbsp;</h1>
+                <h5>idea to money print engine</h5>
             </div>
             <div class="title"><button class="player btn btn-success" @click="pause ? start() : stop()">{{ pause ? '>' : '| |'}}</button></div>
             <div class="title"><button class="player btn btn-warning" @click="play">+</button></div>
             <div class="title chromosomes" contenteditable="true">under dev daily deploys contributors welcome ✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦</div>
-            <div class="title" contenteditable="true"><h1>&nbsp;new posts:</h1></div>
+            <div class="title" contenteditable="true"><h1>&nbsp;new ideas:</h1></div>
             <div class="title news-scroller" contenteditable="true">
               <ul>
                 <li>Funded: Famous 5 mins AI Press Engine install</li>
@@ -20,7 +20,7 @@
                 <li>Idea: Add Help Requests to Dev posts</li>
               </ul>
             </div>
-            <div class="title" contenteditable="true"><h1>&nbsp;new ops:</h1></div>
+            <div class="title" contenteditable="true"><h1>&nbsp;new help:</h1></div>
             <div class="title news-scroller" contenteditable="true">
               <ul>
                 <li>COM: My Community AI Ops Bank</li>
@@ -42,7 +42,8 @@
               </div>
               <ul class="list-group">
                 <transition-group name="slide-down" type="animation" appear>
-                  <li class="list-group-item" v-for="project in projects" v-bind:key="project"><h3>&nbsp;&nbsp;&nbsp;Blockchain ( Post-{{ project }}, Ops-{{ services[0] }}, Branch {{ branch }}/{{ branches[0] }}, 'USE')</h3>
+                  <li class="list-group-item" v-for="project in projects" v-bind:key="project">
+                    <h3>&nbsp;&nbsp;&nbsp;helpchain ( idea-{{ project }}, help-{{ services[0] }}, branch {{ branch }}/{{ branches[0] }}, 'TRUST')</h3>
 
                     <table id="progress-table" class="matrix">
                       <tr class="row" v-for="(row, rowIndex) in mixops" v-bind:key="rowIndex">                          
@@ -76,7 +77,8 @@
               </div>
               <ul class="list-group">
                 <transition-group name="slide-up" type="animation" appear>
-                  <li class="list-group-item" v-for="project in projects" v-bind:key="project"><h3>&nbsp;&nbsp;&nbsp;Project {{ project }}: Title[{{ project }}] - Friend[{{ project }}] - [Interest] - Job-{{ project }}</h3>
+                  <li class="list-group-item" v-for="project in projects" v-bind:key="project">
+                    <h3>&nbsp;&nbsp;&nbsp;project {{ project }}: title[{{ project }}] - friend[{{ project }}] - [interest] - job-{{ project }}</h3>
 
                     <table id="project-table" class="matrix">
                       <tr class="row" v-for="(row, rowIndex) in mixops" v-bind:key="rowIndex">                          
@@ -110,7 +112,8 @@
               </div>
               <ul class="list-group">
                 <transition-group name="slide-down" type="animation" appear>
-                  <li class="list-group-item" v-for="service in services" v-bind:key="service"><h3>&nbsp;&nbsp;&nbsp;Service {{ service }}: Title[{{ service }}] - Friend[{{ service }}] - [Interest] - Ops-{{ service }}</h3>
+                  <li class="list-group-item" v-for="service in services" v-bind:key="service">
+                    <h3>&nbsp;&nbsp;&nbsp;service {{ service }}: title[{{ service }}] - friend[{{ service }}] - [interest] - help-{{ service }}</h3>
                     
                     <table id="service-table" class="matrix">
                       <tr class="row" v-for="(row, rowIndex) in mixops" v-bind:key="rowIndex">                          
@@ -137,9 +140,9 @@
           </div>
 
           <div class="background-signs">
-            <p>My AI &nbsp; blog & ops
+            <p>cash =&nbsp; idea ⋆ help
             <br><br>
-            free AI ops &nbsp;engine</p>
+            free ai help engine</p>
           </div>
 
           <div id="editor">
@@ -194,8 +197,8 @@
                 </h4>
                 <h4 class="title-long">© Ianta Labs | MIT License</h4>
                 <h4 class="title-long"><a href="https://github.com/ai-press/post-ops-engine">
-                Download Free AI Ops Engine @ Github</a></h4>
-                <h4 class="title-long" contenteditable="true">Run your own AI operations!</h4>
+                Download Free AI Help Engine @ Github</a></h4>
+                <h4 class="title-long" contenteditable="true">Friends' help book wallet</h4>
               </div>
             </div>
           </div>
