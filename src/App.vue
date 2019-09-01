@@ -37,7 +37,7 @@
                 <button contenteditable="true" class="next btn btn-warning" @click="setCell('project-table', 3, 5, 'votes')">Rank</button>
                 <button contenteditable="true" class="next btn btn-primary" @click="nextBranch">Next Branch</button>
                 <button contenteditable="true" class="next btn btn-primary" @click="addNewRule">New Rule:</button>
-                <input type="text" class="input-add-new" name="new-rule" value="eg: ECO - use eco first operations" size="40" maxlength="40">
+                <input type="text" class="input-add-new" name="new-rule" value="eg: ECO - use eco first services" size="40" maxlength="40">
                 <!-- <button contenteditable="true" class="next btn btn-primary" @click="addTableRow('progress-table', 8, [1, 'type', 'value', 'name','value', 'name1', 'value1'])">Next Pay</button> -->
               </div>
               <ul class="list-group">
@@ -107,7 +107,7 @@
               <div class="buttons">
                 <button contenteditable="true" class="next btn btn-primary" @click="nextService">Next Service</button>
                 <button contenteditable="true" class="next btn btn-primary" @click="load = !load">New Help:</button>
-                <input type="text" class="input-add-new" name="new-ops" value="eg: Execute or book top required ops." size="40" maxlength="40">
+                <input type="text" class="input-add-new" name="new-ops" value="eg: 1 button help book wallet setup" size="40" maxlength="40">
                 <button class="next btn btn-warning" @click="runOneOps">+</button>
               </div>
               <ul class="list-group">
