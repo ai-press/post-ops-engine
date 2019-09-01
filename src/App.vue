@@ -15,7 +15,7 @@
             <div class="title" contenteditable="true"><h1>&nbsp;new ideas:</h1></div>
             <div class="title news-scroller" contenteditable="true">
               <ul>
-                <li>Funded: Famous 5 mins AI Press Engine install</li>
+                <li>Funded: Famous 5 mins AI Help Engine install</li>
                 <li>Voting: Chinese, Hindi, Spanish, Arabic, Russian apps</li>
                 <li>Idea: Add Help Requests to Dev posts</li>
               </ul>
@@ -233,7 +233,7 @@ export default {
       inputEdit: '',
       textEdit: `Hello World!
 
-This is your first idea posted.
+This is your first idea post.
 Add more details to transform it in something helpful.`,
       mixops: [
         ['✦','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'],
