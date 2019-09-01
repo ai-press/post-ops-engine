@@ -233,8 +233,8 @@ export default {
       inputEdit: '',
       textEdit: `Hello World!
 
-This is your first post.
-Add ops details to transform it in a working operation.`,
+This is your first idea posted.
+Add more details to transform it in something helpful.`,
       mixops: [
         ['✦','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'],
         ['1','STATUS','>','post','','','','','','','','','','','','','','','','','','','','','','',''],
